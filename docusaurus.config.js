@@ -49,7 +49,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'aDev Guild',
+        title: 'aDev Class',
         logo: {
           alt: 'aDev Guild Logo',
           src: 'img/adev-icon.png',
