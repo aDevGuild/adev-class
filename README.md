@@ -16,6 +16,10 @@ a criação de paralelos entre a linguagem que você já sabe e a que deseja apr
 - Como Instalar
 - Como compilar e executar
 
+### Setup
+- Como Instalar
+- Como compilar e executar
+
 ### Introdução
 
 - Palavras-chave e Identificadores
