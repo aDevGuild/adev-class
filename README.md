@@ -2,6 +2,10 @@
 
 [![Github Stars](https://img.shields.io/github/stars/aDevGuild/adev-class?color=yellow)](https://github.com/aDevGuild/adev-class/stargazers)
 
+<p align="center">
+<img src="./static/img/adev-icon.png" width="64" height="64" />
+</p>
+
 Repositório destinado a mentoria e incentivo de iniciantes na programação.
 
 Abordaremos conceitos fundamentais nas diferentes linguagens de programação.
@@ -15,10 +19,6 @@ a criação de paralelos entre a linguagem que você já sabe e a que deseja apr
 
 ### Setup
 
-- Como Instalar
-- Como compilar e executar
-
-### Setup
 - Como Instalar
 - Como compilar e executar
 
