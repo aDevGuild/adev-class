@@ -90,7 +90,7 @@ const nomeDaConstante = 'valor';
 
 ## Variáveis Globais, Locais e Escopo
 
-Em JavaScript, existem dois tipos de variáveis: **globais** e **locais**.
+Em JavaScript, existem dois níveis de acesso a variáveis e constantes, **global** e **local**.
 
 ### Escopo
 
