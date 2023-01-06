@@ -33,7 +33,7 @@ node --version
 Se tudo correu bem, você verá a versão instalada do seu Node.<br/>
 Pronto, já pode usar! 🥳🎉🎊
 
-![NodeJS Setup 2](../../static/img/javascript/setup/setup-js-4.png)
+![Node Version](../../static/img/javascript/setup/setup-js-4.png)
 
 ### Linux
 
@@ -57,5 +57,3 @@ node -v
 ```
 
 _voilá!_ 🥳🎉🎊
-
-Para testar se sua instalação está funcionando corretamente, siga os passos para fazer o [Seu Primeiro Cógido](/docs/javascript/programming-basis/first-code)
