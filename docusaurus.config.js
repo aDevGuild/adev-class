@@ -94,7 +94,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} aDev Guild, Inc. aDev Class é uma marca da aDev Guild. Site construído com Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

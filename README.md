@@ -1,6 +1,8 @@
 # aDev Class
 
 [![Github Stars](https://img.shields.io/github/stars/aDevGuild/adev-class?color=yellow)](https://github.com/aDevGuild/adev-class/stargazers)
+[![Contributors](https://img.shields.io/github/contributors-anon/aDevGuild/adev-class)](https://github.com/aDevGuild/adev-class/graphs/contributors)
+[![Top Language](https://img.shields.io/github/languages/top/aDevGuild/adev-class)](https://github.com/aDevGuild/adev-class)
 
 <p align="center">
 <img src="./static/img/adev-icon.png" width="64" height="64" />
