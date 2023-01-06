@@ -2,42 +2,60 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Instalação
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+O primeiro passo, para seguir este guia, é instalar o [NodeJS](https://nodejs.org/en/).
+Isso é muito fácil!
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## Como instalar o Node?
 
-## Create your first React Page
+### Windows
 
-Create a file at `src/pages/my-react-page.js`:
+- Primeiro acesse: https://nodejs.org/en/
+- Clique em "Download" e escolha a versão LTS (Long Term Support) para Windows.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+  ![NodeJS Download](../../static/img/javascript/setup/setup-js-1.png)
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
+- Execute o arquivo de instalação
+
+  ![NodeJS Setup 1](../../static/img/javascript/setup/setup-js-2.png)
+
+- "next" -> "next" ... -> "install"
+
+  ![NodeJS Setup 2](../../static/img/javascript/setup/setup-js-3.png)
+
+- Abra o seu terminal e digite:
+
+```bash
+node --version
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+Se tudo correu bem, você verá a versão instalada do seu Node.<br/>
+Pronto, já pode usar! 🥳🎉🎊
 
-## Create your first Markdown Page
+![NodeJS Setup 2](../../static/img/javascript/setup/setup-js-4.png)
 
-Create a file at `src/pages/my-markdown-page.md`:
+### Linux
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+- Primeiramente, você precisará do [curl](https://curl.se/). Para instalá-lo é simples, apenas cole no seu terminal:
 
-This is a Markdown page
+```bash
+sudo apt-get install curl
 ```
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+- Depois, utilizando o **curl**, requisite o repositório do Node:<br/>
+  > _Obs: Na data da publicação deste, a versão atual do **NodeJS** é a 18._<br/> > _Sinta-se a vontade para baixar a versão que preferir._
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+```
+
+- Por fim, verifique se a instalação funcionou corretamente:
+
+```bash
+node -v
+```
+
+_voilá!_ 🥳🎉🎊
+
+Para testar se sua instalação está funcionando corretamente, siga os passos para fazer o [Seu Primeiro Cógido](/docs/javascript/programming-basis/first-code)
