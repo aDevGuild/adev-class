@@ -1,5 +1,7 @@
 # aDev Class
 
+[![Github Stars](https://img.shields.io/github/stars/aDevGuild/adev-class?color=yellow)](https://github.com/aDevGuild/adev-class/stargazers)
+
 Repositório destinado a mentoria e incentivo de iniciantes na programação.
 
 Abordaremos conceitos fundamentais nas diferentes linguagens de programação.
