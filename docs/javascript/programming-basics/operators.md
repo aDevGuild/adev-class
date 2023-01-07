@@ -66,15 +66,13 @@ let v = 10;
 v %= 5; // v = v % 5
 ```
 
-````
-
 ### Operadores de Incremento e Decremento
 
 Operadores que incrementam ou decrementam o valor da variável em 1.
 
 ```js
 
-````
+```
 
 ### Operadores de String
 
@@ -99,6 +97,6 @@ console.log(nome); // Alexandre Yamauchi
 
 ### Operadores condicionais (ternários)
 
-```
+```js
 
 ```
