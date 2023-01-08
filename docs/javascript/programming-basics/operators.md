@@ -71,7 +71,11 @@ v %= 5; // v = v % 5
 Operadores que incrementam ou decrementam o valor da variável em 1.
 
 ```js
+let i = 0;
+i++; // i = i + 1
 
+let j = 0;
+j--; // j = j - 1
 ```
 
 ### Operadores de String
@@ -93,10 +97,45 @@ nome += ' Yamauchi';
 console.log(nome); // Alexandre Yamauchi
 ```
 
-### O que significa operador unário, binário e ternário?
+## O que significa operador unário, binário e ternário?
+
+### Operadores unários
+
+Operadores que recebem apenas um operando, como o operador de incremento.
+A operação é realizada no próprio operando.
+
+_Operando: valor que está sendo utilizado na operação._
+
+```js
+let x = 10;
+x++; // x = x + 1
+```
+
+### Operadores binários
+
+Operadores que recebem dois operandos.
+
+Por exemplo, o operador de soma recebe dois operandos e realiza a soma entre eles.
+
+```js
+let x = 10;
+let y = 5;
+let soma = x + y;
+```
 
 ### Operadores condicionais (ternários)
 
-```js
+Operadores que recebem três operandos.
 
+Por exemplo, o operador ternário recebe três operandos e retorna um deles. O operador ternário é utilizado para fazer comparações.<br/>
+Caso a comparação seja verdadeira, o primeiro operando é retornado, caso contrário, o segundo operando é retornado.
+
+Ou seja, o operador ternário é uma forma simplificada de escrever uma estrutura condicional. Recebe três operandos, sendo o primeiro a condição, o segundo o valor caso a condição seja verdadeira e o terceiro o valor caso a condição seja falsa.
+
+```js
+let x = 10;
+let y = 5;
+let maior = x > y ? x : y;
+
+console.log(maior); // 10
 ```
