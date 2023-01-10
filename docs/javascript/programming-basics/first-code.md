@@ -61,22 +61,16 @@ Você utilizará muito essa ferramenta durante seu aprendizado e carreira como d
 
 ## Extra: O que pode ser impresso no console?
 
-Exemplos dos tipos de informações que podem ser impressas no console:
-
-```js
+```js title="Exemplos dos tipos de informações que podem ser impressas no console:"
 console.log('Escreve seu melhor texto aqui!'); // Imprime um texto no console
 console.log(42); // Imprime um número no console
 ```
 
-Também é possível utilizar a vírgula para imprimir mais de uma informação por vez no console:
-
-```js
+```js title="Também é possível utilizar a vírgula para imprimir mais de uma informação por vez no console:"
 console.log('Seu primeiro texto com um número', 42, '!');
 ```
 
-Exemplos que você aprenderá mais adiante:
-
-```js
+```js title="Exemplos que você aprenderá mais adiante"
 console.log(true); // Imprime um booleano no console
 console.log([1, 2, 3, 4, 5]); // Imprime um array no console
 console.log({ nome: 'João', idade: 42 }); // Imprime um objeto no console
