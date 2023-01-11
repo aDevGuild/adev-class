@@ -22,13 +22,17 @@ a criação de paralelos entre a linguagem que você já sabe e a que deseja apr
 ### Setup
 
 - Como Instalar
-- Como compilar e executar
+- Como Configurar o Ambiente de Desenvolvimento
 
 ### Introdução
 
-- Palavras-chave e Identificadores
+- Seu Primeiro Código
 - Variáveis e Constantes
 - Tipos
-- Input/Output
 - Operadores
-- Exemplos
+- Palavras-chave e Identificadores
+- Condicionais
+- Laços de Repetição
+- Funções
+
+[Veja mais em adev-class.vercel.app](https://adev-class.vercel.app/)
