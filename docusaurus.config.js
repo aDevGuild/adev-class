@@ -50,10 +50,11 @@ const config = {
     ({
       metadata: [
         {
-          name: 'description',
+          name: 'og:description',
           content:
             'Aplicação destinada a mentoria e incentivo de iniciantes na programação.',
         },
+
         {
           name: 'twitter:card',
           content: 'summary_large_image',
