@@ -56,6 +56,8 @@ const config = {
           content:
             'Aplicação destinada a mentoria e incentivo de iniciantes na programação.',
         },
+        { name: 'twitter:title', content: 'aDev Class' },
+        { name: 'twitter:image', content: 'img/adev-icon.png' },
       ],
       navbar: {
         title: 'aDev Class',
