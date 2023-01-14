@@ -50,9 +50,13 @@ const config = {
     ({
       metadata: [
         {
-          name: 'twitter:card',
+          name: 'description',
           content:
             'Aplicação destinada a mentoria e incentivo de iniciantes na programação.',
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
         },
       ],
       navbar: {
