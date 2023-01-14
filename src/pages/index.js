@@ -36,11 +36,21 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title} Home`}
-      description="Description will go into a meta tag in <head />"
-    >
-      <HomepageHeader />
-    </Layout>
+    <>
+      <head>
+        <meta name="og:title" content="aDev Class" />
+        <meta
+          name="og:description"
+          content="Aplicação destinada a mentoria e incentivo de iniciantes na programação."
+        />
+        <meta name="og:image" content="../../static/img/adev-icon.png" />
+      </head>
+      <Layout
+        title={`${siteConfig.title} Home`}
+        description="Description will go into a meta tag in <head />"
+      >
+        <HomepageHeader />
+      </Layout>
+    </>
   );
 }
