@@ -48,6 +48,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'og:description',
+          content:
+            'Aplicação destinada a mentoria e incentivo de iniciantes na programação.',
+        },
+
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
       navbar: {
         title: 'aDev Class',
         logo: {
