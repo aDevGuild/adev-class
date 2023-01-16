@@ -25,7 +25,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Comece a Aprender! - 1min ⏱️
+            Start Learning! - 1min ⏱️
           </Link>
         </div>
       </div>

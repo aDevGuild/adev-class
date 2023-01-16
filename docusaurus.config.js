@@ -33,10 +33,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        blog: {
+          showReadingTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,6 +71,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
       footer: {
@@ -83,6 +83,15 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Blog',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
