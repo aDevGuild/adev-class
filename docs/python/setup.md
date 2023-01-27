@@ -59,7 +59,7 @@ A principal mudança que o Jupyter Notebook propõe é a divisão do arquivo em 
 > Para agilizar a leitura, vou citar os arquivos do Jupyter Notebook, com a extensão `.ipynb`, como **Notebooks**.
 
 Quando você abre um novo Notebook, é notável que ele já cria uma célula de código para você.
-Caso queira criar novas células, basta clicar no botão `+ Código` ou `+ Texto` no topo da página, para criar uma célula de código ou de texto respectivamente. Os mesmo botões também podem ser encontrados ao passar o mouse a parte superior ou inferior de uma célula, assim vé possível criar uma nova célula exatamente acima ou abaixo da célula selecionada.
+Caso queira criar novas células, basta clicar no botão `+ Código` ou `+ Texto` no topo da página, para criar uma célula de código ou de texto respectivamente. Os mesmo botões também podem ser encontrados ao passar o mouse a parte superior ou inferior de uma célula, assim é possível criar uma nova célula exatamente acima ou abaixo da célula selecionada.
 
 #### Células de Código
 
